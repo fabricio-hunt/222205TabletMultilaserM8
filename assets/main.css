@@ -32,6 +32,7 @@ body{
 
 .main-container svg{
     width: 80%;
+   
 }
 
 .bloco__texto--banner{
@@ -71,11 +72,8 @@ body{
 
   .card svg {
     border-radius: 4px;
-    margin-bottom: 8px;
     width: 65px;
-    height: auto;
-    padding-top: 40px;
-    
+    height: 65px;
   }
 
   .card h2 {
@@ -85,6 +83,13 @@ body{
 
   .card p {
     color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .svg__texto{
+    margin-top: 50px;
   }
 
 
