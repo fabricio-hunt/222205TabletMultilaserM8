@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    max-width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+.container-0{
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.banner-fluid{
+    width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-container svg{
+    width: 80%;
+}
+
+.bloco__texto--banner{
+    display: flex;
+    width: 385px;
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.bloco__texto--banner h2{
+    font-size: 42px;
+}
+
+/* Container-1*/
+
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width:215px;
+    height:215px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    text-align: center;
+  }
+
+  .card svg {
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 65px;
+    height: auto;
+    padding-top: 40px;
+    
+  }
+
+  .card h2 {
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .card p {
+    color: #666;
+  }
+
+
+
+
+
+/* RESPONSIVO*/ 
+
+@media screen and (max-width: 768px) {
+    .container-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 35px;
+    }
+
+.bloco__texto--banner{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
+    }
+
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  }
+
