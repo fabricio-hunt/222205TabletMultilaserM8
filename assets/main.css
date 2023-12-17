@@ -123,3 +123,11 @@ body{
 }
   }
 
+  @media screen and (max-width: 721px){
+    .main-container{
+
+        min-width: 721px;
+    }
+  } 
+
+
