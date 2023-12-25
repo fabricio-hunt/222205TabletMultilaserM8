@@ -215,10 +215,6 @@ body{
 }
 
 /* RESPONSIVO*/ 
-
-  
-
-
 @media screen and (max-width: 768px) {
     .container-0 {
     display: flex;
@@ -247,8 +243,28 @@ body{
   @media screen and (max-width: 721px){
     .main-container{
 
-        min-width: 721px;
+        min-width: 1369px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
   } 
+
+  @media screen and (max-width: 768px){
+    .container-3{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .navegue{
+      width: 82%;
+      height: 80%;
+    }
+
+  }
 
 
