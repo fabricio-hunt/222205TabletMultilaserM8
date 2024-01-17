@@ -214,57 +214,12 @@ body{
   margin-bottom: 30px;
 }
 
-/* RESPONSIVO*/ 
-@media screen and (max-width: 768px) {
-    .container-0 {
+@media only screen and (max-width: 375px) {
+  .main-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 35px;
-    }
-
-.bloco__texto--banner{
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 35px;
-    }
-
-.container-1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  }
 }
-  }
 
-  @media screen and (max-width: 721px){
-    .main-container{
-
-        min-width: 1369px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-  } 
-
-  @media screen and (max-width: 768px){
-    .container-3{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      margin-top: 20px;
-      margin-bottom: 30px;
-    }
-
-    .navegue{
-      width: 82%;
-      height: 80%;
-    }
-
-  }
 
 
