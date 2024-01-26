@@ -5,7 +5,7 @@ body{
 }
 
 .main-container{
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -214,8 +214,80 @@ body{
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1024px) {
+  .container-0{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .main-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .container-0{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+  .container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bloco__texto--banner h2{
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px
+  }
+  .main-container svg {
+    width: 60%;
+    margin: 0 auto;
+}
+  .logo-google{
+    display: none;
+
+  }
+  .container-2__card-grid img{
+    max-width: 95%;
+    height: auto;
+  }
+  .container-4 img{
+    max-width: 95%;
+    height: auto;
+  }
+  .container-4 h4 {
+    font-size: 44px;
+  }
+}
+@media only screen and (max-width: 375px){
+  .container-1{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 320px){
+  .container-1{
     display: flex;
     flex-direction: column;
   }
